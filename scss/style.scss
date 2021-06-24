@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.item {
+  max-width: 400px;
+  height: 230px;
+  margin-left: 50px;
+
+  &-wrapper {
+    position: relative;
+    border: 1px solid red;
+  }
+
+  &-text {
+    text-align: center;
+    border: 1px solid orange;
+  }
+
+  &-img {
+    max-width: 200px;
+    margin: 0 auto;
+    border: 1px solid green;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.sticker {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  height: 100%;
+  width: 19px;
+  left: 0;
+  bottom: 0;
+  user-select: none;
+
+  &-text {
+    position: absolute;
+    left: -12px;
+    bottom: 10px;
+    display: inline-block;
+    padding: 3px 10px 2px;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    transform: rotate(-90deg);
+  }
+
+  &-red {
+    background: linear-gradient(0deg, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
+  }
+}

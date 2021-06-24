@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.item {
+  max-width: 400px;
+  height: 230px;
+  margin-left: 50px;
+}
+
+.item-wrapper {
+  position: relative;
+  border: 1px solid red;
+}
+
+.item-text {
+  text-align: center;
+  border: 1px solid orange;
+}
+
+.item-img {
+  max-width: 200px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+.item img {
+  width: 100%;
+}
+
+.sticker {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  height: 100%;
+  width: 19px;
+  left: 0;
+  bottom: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.sticker-text {
+  position: absolute;
+  left: -12px;
+  bottom: 10px;
+  display: inline-block;
+  padding: 3px 10px 2px;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.sticker-red {
+  background: -webkit-gradient(linear, left bottom, left top, from(#c01414), color-stop(57.03%, rgba(187, 3, 3, 0)));
+  background: -webkit-linear-gradient(bottom, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
+  background: -o-linear-gradient(bottom, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
+  background: linear-gradient(0deg, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
+}
