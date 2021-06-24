@@ -33,16 +33,11 @@
 
 .sticker {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   position: absolute;
   height: 100%;
-  width: 19px;
+  min-width: 19px;
   left: 0;
   bottom: 0;
   -webkit-user-select: none;
@@ -52,22 +47,21 @@
 }
 
 .sticker-text {
-  position: absolute;
-  left: -12px;
-  bottom: 10px;
+  padding: 10px 2px 0 3px;
   display: inline-block;
-  padding: 3px 10px 2px;
   font-size: 12px;
   line-height: 14px;
   color: white;
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -webkit-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sticker-red {
   background: -webkit-gradient(linear, left bottom, left top, from(#c01414), color-stop(57.03%, rgba(187, 3, 3, 0)));
-  background: -webkit-linear-gradient(bottom, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
-  background: -o-linear-gradient(bottom, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
   background: linear-gradient(0deg, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
 }
