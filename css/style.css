@@ -65,3 +65,13 @@
   background: -webkit-gradient(linear, left bottom, left top, from(#c01414), color-stop(57.03%, rgba(187, 3, 3, 0)));
   background: linear-gradient(0deg, #c01414 0%, rgba(187, 3, 3, 0) 57.03%);
 }
+
+.sticker-gray {
+  background: -webkit-gradient(linear, left bottom, left top, from(#7c7c7c), color-stop(54.28%, rgba(187, 3, 3, 0)));
+  background: linear-gradient(0deg, #7c7c7c 0%, rgba(187, 3, 3, 0) 54.28%);
+}
+
+.sticker-lightblue {
+  background: -webkit-gradient(linear, left bottom, left top, from(#03b0bb), color-stop(55.76%, rgba(187, 3, 3, 0)));
+  background: linear-gradient(0deg, #03b0bb 0%, rgba(187, 3, 3, 0) 55.76%);
+}
